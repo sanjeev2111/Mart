@@ -25,7 +25,7 @@ const{getTotalCartItems}=useContext(ShopContext)
     </ul>
 <div className='nav-login-cart'>
 <Link to='/login'><button>Login</button></Link>
-<Link to='/cart'><img src={cart_icon}></img></Link>
+<Link to='/cart'><img src={cart_icon} alt='im1'></img></Link>
 <div className='nav-cart-count'>{getTotalCartItems()}</div>
 
 </div>
