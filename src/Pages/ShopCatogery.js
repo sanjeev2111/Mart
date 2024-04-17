@@ -9,13 +9,13 @@ const {all_product} = useContext(ShopContext);
 
   return (
     <div className='shop-catogery'>
-<img className='shopcatogery-banner' src={props.banner}></img>
+<img className='shopcatogery-banner' src={props.banner} alt='im28'></img>
 <div className='shopcatogery-indexSort'>
   <p>
     <span>Showing 1-12</span> out of 36 products
   </p>
   <div className='shopcatogery-sort'>
-    Sort by <img src={dropdown_icon}></img>
+    Sort by <img src={dropdown_icon} alt='im29'></img>
   </div>
 </div>
 <div className='shopcatogery-products'>
