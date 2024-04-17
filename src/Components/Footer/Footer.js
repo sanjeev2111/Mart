@@ -13,7 +13,7 @@ const date = new Date().getFullYear();
   return (
     <div className='footer'>
         <div className='footer-logo'>
-            <img src={footer_logo}></img>
+            <img src={footer_logo} alt='img2'></img>
             <p>SANJEEV MART</p>
         </div>
         <ul className='footer-links'>
@@ -25,13 +25,13 @@ const date = new Date().getFullYear();
         </ul>
         <div className='footer-social-icon'>
             <div className='footer-icons-container'>
-                <img src={instagram_icon}></img>
+                <img src={instagram_icon} alt='img5'></img>
             </div>
             <div className='footer-icons-container'>
-                <img src={pintester_icon}></img>
+                <img src={pintester_icon} alt='img6'></img>
             </div>
             <div className='footer-icons-container'>
-                <img src={whatsapp_icon}></img>
+                <img src={whatsapp_icon} alt='img8'></img>
             </div>
 
         </div>
